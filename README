@@ -1,1 +1,7 @@
-starting readme File
+example of an application built with yeoman, backbone/require.js with miso.ds link to a public document on google drive
+
+the app is auto- inserting itself into a pre-existent site - this site's CSS is missing so the presentation in index.html
+is only indicative
+
+The application shows 24 buttons, each one is activated on the corresponding day on december 2013.
+the click on the button shows the corresponding vine video - taken from google drive 
