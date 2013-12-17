@@ -1,0 +1,230 @@
+#magazine-homepage #calAventContainerID {
+
+  cursor: none; }
+  #magazine-homepage #calAventContainerID .adaptForCalAvent {
+    background-image: url("../images/fond1024.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: transparent;
+    padding: 9px; }
+  #magazine-homepage #calAventContainerID .calTitre {
+    padding-left: 11px;
+    font-weight: bold;
+    font-size: 20px; }
+  #magazine-homepage #calAventContainerID .hrRule {
+    height: 0px;
+    visibility: hidden;
+    border: 0;
+    margin-bottom: -14px; }
+  #magazine-homepage #calAventContainerID .calAuthors {
+    position: relative;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 5px;
+    z-index: 95; }
+    #magazine-homepage #calAventContainerID .calAuthors a {
+      color: white;
+      line-height: 1%; }
+    #magazine-homepage #calAventContainerID .calAuthors a:hover {
+      text-decoration: underline;
+      color: #fa481c; }
+  #magazine-homepage #calAventContainerID .btnClosePane {
+    background: url("../images/x-close.png") no-repeat left top;
+    z-index: 98; }
+  #magazine-homepage #calAventContainerID .btnClosePane:hover {
+    background-position: left bottom; }
+
+
+
+
+
+.panel-artecreative .panel-pane, .panel-artecreative .ui-tabs-panel {
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#handCursorHolder {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  overflow: hidden; }
+  #handCursorHolder #handCursor {
+    position: relative;
+    width: 216px;
+    height: 144px;
+    background-image: url("../images/main.png");
+    z-index: 90;
+    visibility: visible; }
+
+.calAventVideoHolder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-left: -9px;
+  margin-top: -9px;
+  visibility: hidden;
+  z-index: 100;
+  background-color: transparent;
+  cursor: pointer; }
+  .calAventVideoHolder #transparentBgr {
+    margin-left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-color: black;
+    z-index: 99; }
+  .calAventVideoHolder #embeddedVineVid {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 330px;
+    height: 330px;
+    z-index: 1001;
+    background-color: transparent; }
+    .calAventVideoHolder #embeddedVineVid #calAventiFrame {
+      width: 330px;
+      height: 330px; }
+  .calAventVideoHolder #embeddedVineVidAuthor {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 330px;
+    margin-top: 6px;
+    z-index: 1002;
+    font-size: 12px; }
+  .calAventVideoHolder #btXVideo {
+    float: right;
+    margin-right: -20px;
+    width: 10px;
+    height: 50px; }
+    .calAventVideoHolder #btXVideo .closeVideoCalBt {
+      top: 0px;
+      right: -25px; }
+
+.calAventContainer {
+  margin-top: 10px;
+  background-color: transparent; }
+  .calAventContainer .footerBox {
+    background-color: transparent;
+    width: 960px;
+    height: 2px;
+    clear: both; }
+  .calAventContainer .rectangle {
+    float: left;
+    margin-left: 16px;
+    margin-top: 10px;
+    background-color: transparent; }
+    .calAventContainer .rectangle .clickZone {
+      position: absolute;
+      width: 100px;
+      height: 83px;
+      background-color: transparent;
+      z-index: 98; }
+    .calAventContainer .rectangle .imgContainer {
+      width: 100px;
+      height: 83px;
+      overflow: hidden;
+      background-color: transparent; }
+      .calAventContainer .rectangle .imgContainer .imagesBGR {
+        display: block;
+        width: 300px;
+        height: 83px; }
+        .calAventContainer .rectangle .imgContainer .imagesBGR .daimg {
+          display: block;
+          width: 100px;
+          height: 83px;
+          float: left; }
+          .calAventContainer .rectangle .imgContainer .imagesBGR .daimg img {
+            width: 100%;
+            height: 100%; }
+      .calAventContainer .rectangle .imgContainer .actif {
+        margin-left: -100px; }
+      .calAventContainer .rectangle .imgContainer .over {
+        margin-left: -200px; }
+
+@media all and (max-width: 1023px) {
+  #magazine-homepage #calAventContainerID {
+    cursor: auto; }
+    #magazine-homepage #calAventContainerID .adaptForCalAvent {
+      background-image: url("../images/fond700.png");
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-color: transparent; }
+
+  #handCursorHolder #handCursor {
+    visibility: hidden; }
+
+  .calAventVideoHolder #embeddedVineVid {
+    width: 250px;
+    height: 250px; }
+    .calAventVideoHolder #embeddedVineVid #calAventiFrame {
+      width: 250px;
+      height: 250px; }
+  .calAventVideoHolder #embeddedVineVidAuthor {
+    width: 250px; }
+
+  .calAventContainer .calAventVideoHolder {
+    width: 640px; }
+  .calAventContainer .rectangle {
+    margin-top: 0px;
+    margin-left: 0px; }
+    .calAventContainer .rectangle .clickZone {
+      width: 80px;
+      height: 66px; }
+    .calAventContainer .rectangle .imgContainer {
+      width: 80px;
+      height: 66px; }
+      .calAventContainer .rectangle .imgContainer .imagesBGR {
+        width: 240px;
+        height: 66px; }
+        .calAventContainer .rectangle .imgContainer .imagesBGR .daimg {
+          width: 80px;
+          height: 66px; }
+      .calAventContainer .rectangle .imgContainer .actif {
+        margin-left: -80px; }
+      .calAventContainer .rectangle .imgContainer .over {
+        margin-left: -160px; } }
+@media all and (max-width: 767px) {
+  #magazine-homepage #calAventContainerID .adaptForCalAvent {
+    background-image: url("../images/fond400.png"); } }
+@media all and (max-width: 479px) {
+  #magazine-homepage #calAventContainerID .adaptForCalAvent {
+    background-image: url("../images/fond300.png"); }
+  #magazine-homepage #calAventContainerID .calTitre {
+    font-size: 17px; }
+  #magazine-homepage #calAventContainerID .calAuthors {
+    font-size: 13px; }
+
+  .calAventVideoHolder #embeddedVineVid {
+    width: 250px;
+    height: 250px; }
+    .calAventVideoHolder #embeddedVineVid #calAventiFrame {
+      width: 250px;
+      height: 250px; }
+  .calAventVideoHolder #embeddedVineVidAuthor {
+    width: 250px; }
+
+  .calAventContainer .calAventVideoHolder {
+    width: 640px; }
+  .calAventContainer .rectangle {
+    margin-left: 4px; }
+    .calAventContainer .rectangle .clickZone {
+      width: 52px;
+      height: 43px; }
+    .calAventContainer .rectangle .imgContainer {
+      width: 52px;
+      height: 43px; }
+      .calAventContainer .rectangle .imgContainer .imagesBGR {
+        width: 156px;
+        height: 43px; }
+        .calAventContainer .rectangle .imgContainer .imagesBGR .daimg {
+          width: 52px;
+          height: 43px; }
+      .calAventContainer .rectangle .imgContainer .actif {
+        margin-left: -52px; }
+      .calAventContainer .rectangle .imgContainer .over {
+        margin-left: -104px; } }

@@ -1,0 +1,64 @@
+/*
+Syntax error: Undefined variable: "$line-height-computed".
+        on line 41 of _progress-bars.scss
+
+36: // -------------------------
+37: 
+38: // Outer container
+39: .progress {
+40:   overflow: hidden;
+41:   height: $line-height-computed;
+42:   margin-bottom: $line-height-computed;
+43:   background-color: $progress-bg;
+44:   border-radius: $border-radius-base;
+45:   @include box-shadow(inset 0 1px 2px rgba(0,0,0,.1));
+46: }
+
+Backtrace:
+_progress-bars.scss:41
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/script/variable.rb:49:in `_perform'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20:in `render'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/exec.rb:443:in `watch_or_update'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/exec.rb:326:in `process_result'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/exec.rb:41:in `parse'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/exec.rb:21:in `parse!'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/bin/scss:9:in `<top (required)>'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/bin/scss:23:in `load'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$line-height-computed\".\A         on line 41 of _progress-bars.scss\A \A 36: // -------------------------\A 37: \A 38: // Outer container\A 39: .progress {\A 40:   overflow: hidden;\A 41:   height: $line-height-computed;\A 42:   margin-bottom: $line-height-computed;\A 43:   background-color: $progress-bg;\A 44:   border-radius: $border-radius-base;\A 45:   @include box-shadow(inset 0 1px 2px rgba(0,0,0,.1));\A 46: }"; }

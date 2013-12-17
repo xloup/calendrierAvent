@@ -1,0 +1,70 @@
+/*
+Syntax error: Undefined variable: "$icon-font-path".
+        on line 13 of _glyphicons.scss
+
+8: // <a href="#"><span class="glyphicon glyphicon-star"></span> Star</a>
+9: 
+10: // Import the fonts
+11: @font-face {
+12:   font-family: 'Glyphicons Halflings';
+13:   src: url('#{$icon-font-path}#{$icon-font-name}.eot');
+14:   src: url('#{$icon-font-path}#{$icon-font-name}.eot?#iefix') format('embedded-opentype'),
+15:        url('#{$icon-font-path}#{$icon-font-name}.woff') format('woff'),
+16:        url('#{$icon-font-path}#{$icon-font-name}.ttf') format('truetype'),
+17:        url('#{$icon-font-path}#{$icon-font-name}.svg#glyphicons_halflingsregular') format('svg');
+18: }
+
+Backtrace:
+_glyphicons.scss:13
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/script/variable.rb:49:in `_perform'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/script/string_interpolation.rb:82:in `_perform'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/script/funcall.rb:99:in `block in _perform'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/script/funcall.rb:99:in `map'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/script/funcall.rb:99:in `_perform'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:356:in `visit_directive'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20:in `render'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/exec.rb:443:in `watch_or_update'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/exec.rb:326:in `process_result'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/exec.rb:41:in `parse'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/lib/sass/exec.rb:21:in `parse!'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.12/bin/scss:9:in `<top (required)>'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/bin/scss:23:in `load'
+/Users/leloup/.rvm/gems/ruby-2.0.0-p247/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$icon-font-path\".\A         on line 13 of _glyphicons.scss\A \A 8: // <a href=\"#\"><span class=\"glyphicon glyphicon-star\"></span> Star</a>\A 9: \A 10: // Import the fonts\A 11: @font-face {\A 12:   font-family: 'Glyphicons Halflings';\A 13:   src: url('#{$icon-font-path}#{$icon-font-name}.eot');\A 14:   src: url('#{$icon-font-path}#{$icon-font-name}.eot?#iefix') format('embedded-opentype'),\A 15:        url('#{$icon-font-path}#{$icon-font-name}.woff') format('woff'),\A 16:        url('#{$icon-font-path}#{$icon-font-name}.ttf') format('truetype'),\A 17:        url('#{$icon-font-path}#{$icon-font-name}.svg#glyphicons_halflingsregular') format('svg');\A 18: }"; }

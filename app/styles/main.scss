@@ -1,0 +1,464 @@
+
+/// VARS
+
+$picWidthLarge : 100px;
+$picHeightLarge : 83px;
+
+$picWidth1023 : 80px;
+$picHeight1023 : 66px;
+
+$picWidth479 : 52px;
+$picHeight479 : 43px;
+
+
+#page-wrapper{
+
+  //background-image:url("../images/1900x1200_fond_site.png") ;
+  //background-repeat:repeat;
+
+}
+
+#magazine-homepage {
+
+   #calAventContainerID {
+
+
+     cursor:none;
+
+     .adaptForCalAvent {
+       //background-image: url('../images/fond1024.jpg');
+       background-image: url('../images/fond1024.png');
+       background-repeat:no-repeat;
+       background-size: 100% auto;
+       background-color:transparent;
+       padding:9px;
+     }
+
+
+     .calTitre {
+    padding-left: 11px;
+    font-weight: bold;
+    font-size: 20px;
+
+
+
+
+
+     }
+     .hrRule { height:0px; visibility:hidden; border:0; margin-bottom:-14px; }
+
+     .calAuthors {
+       position:relative;
+       font-size:15px;
+       font-weight: normal;
+       line-height: 5px;
+       z-index: 95;
+
+       a {
+
+         color:white;
+         line-height: 1%;
+       }
+       a:hover {
+         text-decoration: underline;
+         color: rgb(250, 72, 28);
+       }
+     }
+
+     .calAuthors:hover {
+
+      // color:orange;
+     }
+
+     .btnClosePane {
+
+       background: url('../images/x-close.png') no-repeat left top;
+       z-index: 98;
+     }
+     .btnClosePane:hover {
+     background-position: left bottom;
+
+       }
+   }
+
+}
+
+
+#handCursorHolder {
+  position:absolute;
+  top:0px;
+  width:100%;
+  height:100%;
+  background-color: transparent;
+  overflow: hidden;
+
+  #handCursor {
+    position:relative;
+    width:216px;
+    height:144px;
+    background-image: url("../images/main.png");
+    z-index: 90;
+    visibility: visible;
+  }
+}
+
+
+.calAventVideoHolder {
+  position:absolute;
+
+  width:100%;
+  height:100%;
+  margin-left:-9px;
+  margin-top: -9px;
+  visibility: hidden;
+  z-index: 100;
+  background-color:transparent;
+  cursor:pointer;
+
+  #transparentBgr {
+    margin-left:0px;
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0.7;
+    background-color: black;
+    z-index: 99;
+
+  }
+
+  #embeddedVineVid {
+    position:relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 330px;
+    height:330px;
+
+    z-index: 1001;
+    background-color: transparent;
+
+    #calAventiFrame {
+
+      width:330px;
+      height:330px;
+    }
+  }
+  #embeddedVineVidAuthor {
+    position:relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 330px;
+    margin-top:6px;
+    z-index: 1002;
+    font-size: 12px;
+  }
+
+  #btXVideo {
+
+    float:right;
+    margin-right: -20px;
+    width:10px;
+    height: 50px;
+
+
+    .closeVideoCalBt {
+
+      top:0px;
+      right:-25px;
+
+    }
+  }
+
+
+
+
+
+
+}
+
+.calAventContainer {
+
+
+
+
+ margin-top:10px;
+ background-color: transparent;
+
+
+
+
+      .footerBox {
+        background-color: transparent;
+        width:960px;
+        height:2px;
+        clear:both;
+         }
+
+
+
+        .rectangle{
+          float:left;
+          margin-left:16px;
+          margin-top:10px;
+          background-color: transparent;
+
+
+             .clickZone {
+               position:absolute;
+               width:$picWidthLarge;
+               height:$picHeightLarge;
+               background-color: transparent;
+               z-index: 98;
+
+
+             }
+
+            .imgContainer {
+              width:$picWidthLarge;
+              height:$picHeightLarge;
+              overflow: hidden;
+              background-color:transparent;
+
+
+                    .imagesBGR {
+
+                      display:block;
+                      width:3*$picWidthLarge;
+                      height:$picHeightLarge;
+
+
+
+                      .daimg {
+                        display:block;
+                        width:$picWidthLarge;
+                        height:$picHeightLarge;
+                        float:left;
+
+                        img {
+                          width: 100%;
+                          height:100%;
+                        }
+
+                      }
+                    }
+
+              .actif {
+
+                margin-left:-1*$picWidthLarge;
+              }
+
+              .over {
+
+                margin-left:-2*$picWidthLarge;
+              }
+            }
+        }
+
+
+
+}
+
+
+
+
+@media all and (max-width: 1023px) {
+  #magazine-homepage {
+  #calAventContainerID {
+
+
+    cursor:auto;
+    .adaptForCalAvent {
+      //background-image: url('../images/fond700.jpg');
+      background-image: url('../images/fond700.png');
+      background-repeat:no-repeat;
+      background-size: 100% auto;
+      background-color: transparent;
+    }
+  }
+  }
+  #handCursorHolder {
+
+    #handCursor {
+      visibility: hidden;
+    }
+  }
+        .calAventVideoHolder {
+                    #embeddedVineVid {
+                      width :250px;
+                      height:250px;
+
+                      #calAventiFrame {
+
+                        width:250px;
+                        height:250px;
+                      }
+                    }
+
+                    #embeddedVineVidAuthor {
+                      width:250px;
+                    }
+
+
+         }
+
+  .calAventContainer {
+
+    .calAventVideoHolder {
+      width:640px;
+    }
+
+    .rectangle{
+      margin-top: 0px;
+      margin-left: 0px;
+
+      .clickZone {
+        width:$picWidth1023;
+        height:$picHeight1023;
+      }
+
+      .imgContainer {
+        width:$picWidth1023;
+        height:$picHeight1023;
+
+        .imagesBGR {
+          width:3 * $picWidth1023;
+          height:$picHeight1023;
+          .daimg {
+            width:$picWidth1023;
+            height:$picHeight1023;
+          }
+
+
+        }
+        .actif {
+
+          margin-left:-1*$picWidth1023;
+        }
+
+        .over {
+
+          margin-left:-2*$picWidth1023;
+        }
+
+
+
+      }
+
+
+    }
+
+  }
+
+}
+
+@media all and (max-width: 767px) {
+
+  #magazine-homepage {
+    #calAventContainerID {
+
+
+
+      .adaptForCalAvent {
+         //background-image: url('../images/fond400.jpg');
+        background-image: url('../images/fond400.png');
+        //background-repeat:no-repeat;
+        //background-color: green;
+      }
+    }
+  }
+
+}
+
+
+@media all and (max-width: 479px) {
+
+  #magazine-homepage {
+  #calAventContainerID {
+
+
+
+    .adaptForCalAvent {
+      //background-image: url('../images/fond300.jpg');
+      background-image: url('../images/fond300.png');
+      //background-repeat:no-repeat;
+      //background-color: green;
+    }
+
+
+    .calTitre {
+      font-size: 17px;
+    }
+
+    .calAuthors {
+      font-size: 13px;
+    }
+  }
+  }
+
+  .calAventVideoHolder {
+    #embeddedVineVid {
+      width :250px;
+      height:250px;
+
+      #calAventiFrame {
+
+        width:250px;
+        height:250px;
+      }
+    }
+
+    #embeddedVineVidAuthor {
+      width:250px;
+    }
+
+
+
+
+  }
+
+  .calAventContainer {
+
+    .calAventVideoHolder {
+      width:640px;
+    }
+
+    .rectangle{
+      margin-left:4px;
+      .clickZone {
+        width:$picWidth479;
+        height:$picHeight479;
+      }
+
+      .imgContainer {
+        width:$picWidth479;
+        height:$picHeight479;
+
+        .imagesBGR {
+          width:3 * $picWidth479;
+          height:$picHeight479;
+          .daimg {
+            width:$picWidth479;
+            height:$picHeight479;
+          }
+
+
+        }
+        .actif {
+
+          margin-left:-1*$picWidth479;
+        }
+
+        .over {
+
+          margin-left:-2*$picWidth479;
+        }
+
+
+
+      }
+
+
+    }
+
+  }
+
+}

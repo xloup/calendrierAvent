@@ -1,0 +1,49 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>calAvent</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="styles/main.css">
+
+        <!-- adding app -->
+    <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+     <!-- endbuild -->
+
+    </head>
+    <body style="background-color: black; color:white">
+    <script>
+
+        var script = document.createElement('script');
+        script.src = 'http://code.jquery.com/jquery-1.7.1.min.js';
+        script.type = 'text/javascript';
+        console.log ("appending script")
+        setTimeout( function() {document.getElementsByTagName('head')[0].appendChild(script);    }, 500);
+
+
+
+    </script>
+      <div class="calAventContainer">
+
+          <div class="containerrr" style="width:200px;height: 40px; background-color:green;">
+
+              site header
+          </div>
+
+              <div id="magazine-homepage" >
+
+                  <div class="panel-separator"></div>
+              </div>
+
+
+
+      </div>
+
+
+</body>
+</html>
